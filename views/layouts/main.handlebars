@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="/assets/images/faviconLogo.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    </script>
+    <script src="/assets/js/app.js"></script>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body background="/assets/NYTimes.jpg">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-5">
+        <a class="navbar-brand mb-5 pb-5 pr-5 " href="#">
+            <h2> <img src="/assets/mongo.png" width="120" height="80" class="d-inline-block align-top ml-5" alt="">
+                <span class="ml-5  title">Mongo Scraper</span></h2>
+        </a>
+        <form action="/scrape" method="GET">
+            <h2> <button type="submit" id="scrape" class=" pl-5 btn btn-danger btn-large p-4 text-light ml-5 mr-5">Scrape
+                    Technologies Articles</button></h2>
+        </form>
+         <form action="/saved" method="GET">
+        <h2> <button type="submit" id="saved" class=" pl-5 btn btn-danger btn-large p-4 text-light">Saved Articles</button></h2>
+        </form>
+    </nav>
+
+
+    {{{ body }}}
+    </div>
+</body>
+
+</html>

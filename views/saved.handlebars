@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="row w-75 mt-5 myRow">
+        <div class="col-md-9  mt-5 bg-light">
+
+            {{#each Article}}
+            <form action="/delete"  method="GET">
+                <h3 class="bg-success p-3"> {{this.title}} </h3>
+                <h4 class="bg-light mb-5 p-1">{{this.summary}} </h4>
+                <input type="hidden" name="id" value={{this._id}}>
+                <button type="submit" name="delete" class="btn btn-warning">Delete</button>
+            </form>
+            {{/each}}
+
+        </div>
+    </div>
+</div>

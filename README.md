@@ -1,5 +1,5 @@
 # mongoScraper
-An app that scrapes technologies articles from the New York Times website and allow  users to save articles and leave notes on them .
+An app that scrapes technology articles from the New York Times website and allow  users to save articles and leave notes on them .
 
 # Technologies Used
 Node.js
